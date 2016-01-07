@@ -1,0 +1,161 @@
+/********************
+GLOBAL
+********************/
+
+@font-face {
+  font-family: 'CrimsonText-Regular';
+  src: url('../fonts/crimson/CrimsonText-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'CrimsonText-Bold';
+  src: url('../fonts/crimson/CrimsonText-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'new-cicle';
+  src: url('../fonts/new_cicle/New Cicle Fina.ttf');
+}
+
+body, html {
+    height:100%;
+    /* background:#000000; */
+}
+
+body {
+    font-family: "CrimsonText-Regular", "Times New Roman", serif;
+    color:#242625;
+    background:#FDFDFB;
+    padding: 0 50px 0 50px;
+}
+
+/*------------------------------------*\
+    BORDERS
+\*------------------------------------*/
+
+/* Create a series of empty pseudo-elements... */
+html:before,html:after,body:before,body:after{
+    content:"";
+    background:#000;
+    position:fixed;
+    display:block;
+    z-index:5;
+}
+
+/* ...and position them! */
+html:before{
+    height:10px;
+    left:0;
+    right:0;
+    top:0;
+}
+html:after{
+    width:10px;
+    top:0;
+    right:0;
+    bottom:0;
+}
+body:before{
+    height:10px;
+    right:0;
+    bottom:0;
+    left:0;
+}
+body:after{
+    width:10px;
+    top:0;
+    bottom:0;
+    left:0;
+}
+
+img.logo {
+    position : absolute;
+    max-width: 100%;
+    height: 122px;
+    top: 50px;
+}
+
+
+
+section, .social{
+    float:right;
+}
+
+nav {
+    margin: 45px 0 0 0;
+}
+
+ul{
+
+    list-style-type: none;
+}
+
+nav li a{
+    font-family: "new-cicle", "Times New Roman", serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size : 0.8em;
+    letter-spacing: 2px;
+    color: #000;
+}
+
+nav li, h1, p{
+    text-align: right;
+}
+
+.active a{
+    color:#858585;
+}
+
+.social li{
+    display: inline-block;
+}
+
+h1{
+    font-weight: bold;
+    font-family: "CrimsonText-Bold";
+}
+
+i{
+    margin: 0 0 0 15px;
+}
+
+a{
+   color:#858585;
+    text-decoration: none;
+}
+
+.fa-cog {
+  color: black;
+}
+
+/********************
+GLOBAL END
+********************/
+
+
+@media (min-width: 320px) {
+}
+
+
+@media (min-width: 480px) {   
+}
+
+
+@media (min-width: 700px) {  
+}
+
+@media (min-width: 885px) {     
+}
+
+
+@media (min-width: 886px) {  
+}
+
+
+@media (min-width: 1101px) {
+}
+
+@media (min-width: 1200px) {
+}
+

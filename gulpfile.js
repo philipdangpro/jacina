@@ -3,6 +3,7 @@ var autoprefixer = require('gulp-autoprefixer'); //autopréfixe les propriétés
 var cssnano = require('gulp-cssnano'); 			//minifie le css
 var rename = require("gulp-rename"); 			//renomme les fichiers (notamment extension .min.)
 var sass = require('gulp-sass');				//sass
+var plumber = require('gulp-plumber');
 
 //à exécuter avec "gulp css"
 gulp.task('css', function(){ //ici, on donne à la task, le nom "css", attention, ce n'est pas un nom de format
