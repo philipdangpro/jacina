@@ -1,0 +1,29 @@
+Jacinta est remontée contre son site (http://jacinabox.com.au/), qu'elle trouve trop lent à charger, trop relou à mettre à jour, trop cher, non-adapté à ses besoins et mal référencé. Elle l'aime pas quoi. Sauf le design, qu'elle a fait elle-même.  
+
+Elle veut donc vous engager pour réaliser les changements suivants : 
+	- Une refonte totale du code HTML et CSS. Elle ne veut plus voir ces classes et ces ids sur les balises, et souhaite quelque chose de mieux foutu. Elle insiste sur les points suivants : 
+		- CSS mobile first
+		- De bonnes balises sémantiques HTML5
+		- Un minimum de balises utilisées
+		- Ne pas s'inspirer de ce qui a déjà été fait
+	- Donc, exit Bootstrap ! Elle ne veut plus en entendre parler, c'est inutile selon elle. 
+	- Fini le back-office. Jacinta a appris le HTML, et peut maintenant modifier directement le code HTML. Simplifiez lui la vie autant que possible. Elle accepte que vous utilisiez un peu de PHP si cela peut rendre la mise à jour du site plus simple, mais ce n'est pas requis. De toutes façons, elle ne modifie jamais rien, sauf la page "work" une fois ou deux par mois. 
+	- Elle kiffe la sémantique HTML5, alors faut y aller. 
+	- Elle ne veut plus payer sa licence pour Adobe Garamond Pro, et souhaite utiliser la police gratuite Crimson Text.
+	- Les images sont apparemment à une taille non-optimale, du moins sur la page "work". 
+	- Référencement et accessibilité : faites tout ce qui est en votre pouvoir pour améliorer la situation lors de l'intégration. 
+	- Évidemment, elle souhaite que le site soit toujours responsive. En petite largeur, elle n'aime pas trop comment se positionne le menu par rapport au logo, trouve la police trop petite et ne comprend pas pourquoi des items de menu disparaissent. Vous pouvez essayer d'améliorer les choses. 
+	- Elle trouve cela moche qu'il y ait une décalage horizontal du site entre certaines pages, ie. entre la page "work" et la page "contact".
+	- Elle veut assurément que toutes les pages soit valides W3C. 
+	- Elle aimerait bien faire le passage aux "em" pour les tailles de polices, et tout ce qui a trait à la typographie : on lui a dit que c'était "mieux".
+	- L'icône "facebook" est grave bizarre, style sorcière. C'est pas normal. 
+	- Une page ou deux de portfolio devraient lui suffire, elle intégrera les autres elle-même. 
+
+Notes : 
+	- Elle est tout à fait ouverte à l'idée d'utiliser gulp, avec sass ou pas, même si ça implique une baisse de productivité à tous au début. 
+	- elle utilise Google Analytics et souhaite continuer à l'utiliser. 
+	- elle n'a plus aucun visiteur sous IE8 et moins. 
+	- Elle n'insiste pas sur ce point, mais elle apprécierait que les urls reste les mêmes. 
+	- Elle ne veut pas voir de JavaScript, sauf pour GA. 
+	- La page "blog" doit rester telle quelle, c'est en fait un tout autre site, sous tumblr. (Regardez les 4-5 premières lignes de code source, ça vaut le détour ;) Un doctype, suivi de balises script (!) suivi d'un autre doctype (!!))
+	- Elle attend le résultat ce soir sur github (elle consultera assurément votre log git)

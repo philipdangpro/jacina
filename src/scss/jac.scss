@@ -1,0 +1,35 @@
+//variables
+$main-color: #FA3215;
+$second-color: #FF9900;
+$fonts: Verdana, Arial, sans-serif;
+
+@import 'reset';
+
+body {
+	background-color: $main-color;
+	color: $second-color;
+	border: 1px solid #000;
+	}
+
+a {
+	font-family: $fonts;
+	text-decoration: none;
+	color: #000;
+}
+
+//nesting
+nav {
+	
+	ul {
+		list-style: none;
+	}
+
+	li {
+		padding-left: 0;
+		float: left;
+	}
+
+	a {
+		display: block;
+	}
+}
